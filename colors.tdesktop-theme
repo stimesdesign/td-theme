@@ -21,74 +21,108 @@
 // |-background.jpg (or tiled.jpg, background.png, tiled.png)
 //
 
-windowBg: #ffffff;
-windowFg: #000000;
+
+// Окно
+windowBg: #3b3f4b; // Главный цвет окна
+windowFg: #555555;
 windowBgOver: #f1f1f1;
 windowBgRipple: #e5e5e5;
 windowFgOver: windowFg;
 windowSubTextFg: #999999;
 windowSubTextFgOver: #919191;
-windowBoldFg: #222222;
+windowBoldFg: #eceff1; // Цвет ника в шапке, контакт листе слева
 windowBoldFgOver: #222222;
 windowBgActive: #40a7e3;
 windowFgActive: #ffffff;
-windowActiveTextFg: #168acd;
+windowActiveTextFg: #686b7c; // Онлайн
 windowShadowFg: #000000;
 windowShadowFgFallback: #f1f1f1;
+
+
 shadowFg: #00000018;
 slideFadeOutBg: #0000003c;
 slideFadeOutShadowFg: windowShadowFg;
+
+
 imageBg: #000000;
 imageBgTransparent: #ffffff;
+
+
 activeButtonBg: windowBgActive;
 activeButtonBgOver: #39a5db;
-activeButtonBgRipple: #2095d0;
+activeButtonBgRipple: #333742; // Цвет риппла
 activeButtonFg: windowFgActive;
 activeButtonFgOver: activeButtonFg;
 activeButtonSecondaryFg: #cceeff;
 activeButtonSecondaryFgOver: activeButtonSecondaryFg;
-activeLineFg: #37a1de;
+activeLineFg: #57627e; // Левая боковая линия у REPLY-сообщения
 activeLineFgError: #e48383;
+
+
 lightButtonBg: windowBg;
 lightButtonBgOver: #e3f1fa;
 lightButtonBgRipple: #c9e4f6;
 lightButtonFg: windowActiveTextFg;
 lightButtonFgOver: lightButtonFg;
+
 attentionButtonFg: #d14e4e;
 attentionButtonFgOver: #d14e4e;
 attentionButtonBgOver: #fcdfde;
 attentionButtonBgRipple: #f4c3c2;
+
 outlineButtonBg: windowBg;
 outlineButtonBgOver: lightButtonBgOver;
 outlineButtonOutlineFg: windowBgActive;
 outlineButtonBgRipple: lightButtonBgRipple;
-menuBg: windowBg;
+
+// Меню
+menuBg: #000000; // Цвет риппла
 menuBgOver: windowBgOver;
 menuBgRipple: windowBgRipple;
 menuIconFg: #a8a8a8;
-menuIconFgOver: #999999;
+menuIconFgOver: #999999; 
 menuSubmenuArrowFg: #373737;
 menuFgDisabled: #cccccc;
 menuSeparatorFg: #f1f1f1;
+
+
 scrollBarBg: #00000053;
 scrollBarBgOver: #0000007a;
 scrollBg: #0000001a;
 scrollBgOver: #0000002c;
+
+
 smallCloseIconFg: #c7c7c7;
 smallCloseIconFgOver: #a3a3a3;
+
+
 radialFg: windowFgActive;
 radialBg: #00000056;
+
+
 placeholderFg: windowSubTextFg;
 placeholderFgActive: #aaaaaa;
+
+
 inputBorderFg: #e0e0e0;
+
+
 filterInputBorderFg: #54c3f3;
 filterInputInactiveBg: windowBgOver;
+
+
 checkboxFg: #b3b3b3;
+
+
 sliderBgInactive: #e1eaef;
 sliderBgActive: windowBgActive;
+
+
 tooltipBg: #eef2f5;
 tooltipFg: #5d6c80;
 tooltipBorderFg: #c9d1db;
+
+
 titleBg: windowBgOver;
 titleShadow: #00000003;
 titleButtonFg: #ababab;
@@ -98,14 +132,22 @@ titleButtonCloseBgOver: #e81123;
 titleButtonCloseFgOver: windowFgActive;
 titleFgActive: #3e3c3e;
 titleFg: #acacac;
+
+
 trayCounterBg: #f23c34;
 trayCounterBgMute: #888888;
 trayCounterFg: #ffffff;
 trayCounterBgMacInvert: #ffffff;
 trayCounterFgMacInvert: #ffffff01;
+
+
 layerBg: #0000007f;
+
+
 cancelIconFg: menuIconFg;
 cancelIconFgOver: menuIconFgOver;
+
+
 boxBg: windowBg;
 boxTextFg: windowFg;
 boxTextFgGood: #4ab44a;
@@ -117,15 +159,23 @@ boxSearchCancelIconFgOver: cancelIconFgOver;
 boxTitleAdditionalFg: #808080;
 boxTitleCloseFg: cancelIconFg;
 boxTitleCloseFgOver: cancelIconFgOver;
+
+
 membersAboutLimitFg: windowSubTextFgOver;
+
+
 contactsBg: windowBg;
 contactsBgOver: windowBgOver;
 contactsNameFg: boxTextFg;
 contactsStatusFg: windowSubTextFg;
 contactsStatusFgOver: windowSubTextFgOver;
 contactsStatusFgOnline: windowActiveTextFg;
+
+
 photoCropFadeBg: layerBg;
 photoCropPointFg: #ffffff7f;
+
+
 introBg: windowBg;
 introTitleFg: windowBoldFg;
 introDescriptionFg: windowSubTextFg;
@@ -137,6 +187,8 @@ introCoverPlaneTrace: #5ec6ff69;
 introCoverPlaneInner: #c6d8e8;
 introCoverPlaneOuter: #a1bed4;
 introCoverPlaneTop: #ffffff;
+
+
 dialogsMenuIconFg: menuIconFg;
 dialogsMenuIconFgOver: menuIconFgOver;
 dialogsBg: windowBg;
@@ -183,17 +235,27 @@ dialogsUnreadBgMutedActive: dialogsDraftFgActive;
 dialogsUnreadFgActive: dialogsBgActive;
 dialogsForwardBg: dialogsBgActive;
 dialogsForwardFg: dialogsNameFgActive;
+
+
 searchedBarBg: windowBgOver;
 searchedBarBorder: shadowFg;
 searchedBarFg: windowSubTextFgOver;
+
+
 topBarBg: windowBg;
+
+ //Эмодзи смайлы
 emojiPanBg: windowBg;
 emojiPanCategories: #f7f7f7; // windowBg;
 emojiPanHeaderFg: windowSubTextFg;
 emojiPanHeaderBg: #fffffff2; // emojiPanBg;
+
+//Стикеры
 stickerPanDeleteBg: #000000cc;
 stickerPanDeleteFg: windowFgActive;
 stickerPreviewBg: #ffffffb0;
+
+
 historyTextInFg: windowFg;
 historyTextOutFg: windowFg;
 historyCaptionInFg: historyTextInFg;
@@ -214,6 +276,8 @@ historyUnreadBarBorder: shadowFg;
 historyUnreadBarFg: #538bb4;
 historyForwardChooseBg: #0000004c;
 historyForwardChooseFg: windowFgActive;
+
+//Дефолтные аватары в контакт листе слева
 historyPeer1NameFg: #c03d33;
 historyPeer1UserpicBg: #e17076;
 historyPeer2NameFg: #4fad2d;
@@ -235,11 +299,13 @@ historyScrollBarBg: #517c417a;
 historyScrollBarBgOver: #517c41bc;
 historyScrollBg: #517c414c;
 historyScrollBgOver: #517c416b;
-msgInBg: windowBg;
-msgInBgSelected: #c2dcf2;
-msgOutBg: #effdde;
-msgOutBgSelected: #b7dbdb;
-msgSelectOverlay: #358cd44c;
+
+//Стилизация сообщений
+msgInBg: #3b3f4b; // Входящие сообщения и инпут 
+msgInBgSelected: #ffffff; // Входящее сообщение при выделении
+msgOutBg: #494f5d; // Исходящие сообщения
+msgOutBgSelected: #ffffff; // Исходящие сообщения при выделении
+msgSelectOverlay: #red;
 msgStickerOverlay: #358cd47f;
 msgInServiceFg: windowActiveTextFg;
 msgInServiceFgSelected: windowActiveTextFg;
