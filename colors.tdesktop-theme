@@ -24,23 +24,23 @@
 
 // Окно
 windowBg: #3b3f4b; // Главный цвет окна
-windowFg: #555555;
-windowBgOver: #f1f1f1;
-windowBgRipple: #e5e5e5;
+windowFg: #eceff1; // Цвет текста в сообщениях
+windowBgOver: #eceff1; // Цвет самой верхней рамки ( на уровне свернуть, фулскрин, закрыть) + фон инпута поиска и фон при ховере
+windowBgRipple: #333742; // Цвет риппла
 windowFgOver: windowFg;
-windowSubTextFg: #999999;
-windowSubTextFgOver: #919191;
+windowSubTextFg: #999999; // Цвет текста: "Напишите сообщение", цвет времени прихода сообщения ( слева в меню ), цвет самого текста, пришедшего и ушедшего, также меняет цвет статуса "Онлайн" и цвет текста "Search"
+windowSubTextFgOver: #999999; // Цвет текста и времени при наведении на диалог/беседу слева
 windowBoldFg: #eceff1; // Цвет ника в шапке, контакт листе слева
-windowBoldFgOver: #222222;
-windowBgActive: #40a7e3;
-windowFgActive: #ffffff;
-windowActiveTextFg: #686b7c; // Онлайн
-windowShadowFg: #000000;
-windowShadowFgFallback: #f1f1f1;
+windowBoldFgOver: #3b3f4b; // Цвет названия чата слева при наведении
+windowBgActive: #567ca4; // Цвет кружочка непрочитанного сообщения 
+windowFgActive: #ffffff; // Цвет букв в стандарных аватарках
+windowActiveTextFg: #686b7c; // Цвет индикатора "Онлайн"
+windowShadowFg: #3b3f4b; // Цвет тени от всплывающих окон ( в т.ч. сам телеграм )
+windowShadowFgFallback: #fff;
 
 
-shadowFg: #00000018;
-slideFadeOutBg: #0000003c;
+shadowFg: #00000018; // Разделительная полоса между списком слева, поля ввода, заголовка с кнопкой поиска и так далее
+slideFadeOutBg: #0000003c; 
 slideFadeOutShadowFg: windowShadowFg;
 
 
@@ -302,9 +302,9 @@ historyScrollBgOver: #517c416b;
 
 //Стилизация сообщений
 msgInBg: #3b3f4b; // Входящие сообщения и инпут 
-msgInBgSelected: #ffffff; // Входящее сообщение при выделении
+msgInBgSelected: #567ca4; // Входящее сообщение при выделении
 msgOutBg: #494f5d; // Исходящие сообщения
-msgOutBgSelected: #ffffff; // Исходящие сообщения при выделении
+msgOutBgSelected: #567ca4; // Исходящие сообщения при выделении
 msgSelectOverlay: #red;
 msgStickerOverlay: #358cd47f;
 msgInServiceFg: windowActiveTextFg;
